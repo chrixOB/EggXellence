@@ -1,0 +1,134 @@
+.topup-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .topup-card {
+    width: 100%;
+    background: #f1f5f9;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+  }
+  
+  .topup-card h2 {
+    font-size: 1.75rem;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .topup-card label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #1f2937;
+  }
+  
+  .topup-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .topup-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+    outline: none;
+  }
+  
+  .instruction {
+    font-size: 0.95rem;
+    color: #475569;
+    margin-bottom: 1rem;
+  }
+  
+  .topup-button {
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .topup-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .manual-topup {
+    width: 100%;
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #1e293b;
+  }
+  
+  .manual-topup h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0f172a;
+    text-align: center;
+  }
+  
+  .manual-topup strong {
+    color: #1e40af;
+  }
+  
+  .manual-topup .note {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #475569;
+  }
+  
+  .report-delay {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #1d4ed8;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .report-delay:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .topup-container {
+      padding: 1rem;
+    }
+  
+    .topup-card, .manual-topup {
+      padding: 1rem;
+    }
+  
+    .topup-card h2, .manual-topup h3 {
+      font-size: 1.5rem;
+    }
+  
+    .topup-button {
+      font-size: 0.95rem;
+    }
+  }
+  

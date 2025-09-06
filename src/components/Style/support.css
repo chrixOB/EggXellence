@@ -1,0 +1,113 @@
+/* src/Style/Support.css */
+.support-container {
+    max-width: 720px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .support-container h2 {
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 0.5rem;
+  }
+  
+  .support-subtext {
+    font-size: 1rem;
+    color: #475569;
+    margin-bottom: 2rem;
+  }
+  
+  .support-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+  }
+  
+  .support-form label {
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .support-form input,
+  .support-form textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  .support-form input:focus,
+  .support-form textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+    outline: none;
+  }
+  
+  .support-form button {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .support-form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .support-contact-info {
+    margin-top: 2rem;
+    background-color: #f1f5f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.8;
+  }
+  
+  .support-contact-info h3 {
+    font-size: 1.25rem;
+    color: #0f172a;
+    margin-bottom: 1rem;
+  }
+  
+  .support-contact-info p {
+    font-size: 0.95rem;
+    color: #334155;
+  }
+  
+  .support-contact-info a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .support-contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .support-container {
+      padding: 1rem;
+    }
+  
+    .support-form input,
+    .support-form textarea {
+      font-size: 0.95rem;
+    }
+  
+    .support-form button {
+      font-size: 0.95rem;
+    }
+  }
+  
