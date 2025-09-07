@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {
   FaTachometerAlt,
-  FaWifi,
+  FaTree,
+  FaMoneyBillAlt,
   FaWallet,
   FaUsers,
   FaHeadset,
@@ -13,10 +14,10 @@ import {
 
 const navItems = [
   { name: "Dashboard", path: "/", icon: <FaTachometerAlt /> },
-  { name: "AirtelTigo", path: "/airtel-tigo", icon: <FaWifi /> },
-  { name: "MTN Data", path: "/mtn-data", icon: <FaWifi /> },
-  { name: "Telecel", path: "/telecel", icon: <FaWifi /> },
-  { name: "MTN AFA", path: "/mtn-afa", icon: <FaWifi /> },
+  { name: "Feed", path: "/airtel-tigo", icon: <FaTree /> },
+  { name: "Stats", path: "/mtn-data", icon: <FaMoneyBillAlt /> },
+  { name: "Farm Accounts", path: "/telecel", icon: <FaMoneyBillAlt /> },
+  { name: "Logistics", path: "/mtn-afa", icon: <FaMoneyBillAlt /> },
   { name: "Top up Wallet", path: "/wallet", icon: <FaWallet /> },
   { name: "Join our community", path: "/community", icon: <FaUsers /> },
   { name: "Support", path: "/support", icon: <FaHeadset /> },
