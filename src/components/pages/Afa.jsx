@@ -1,5 +1,9 @@
 import React from 'react';
 import '../Style/mtnafa.css';
+import { GiNunchaku, GiPickOfDestiny } from 'react-icons/gi';
+import { SiHungryjacks } from 'react-icons/si';
+import { PiCookingPot } from 'react-icons/pi';
+import { IoTrendingUp } from 'react-icons/io5';
 
 const MTNAFA = () => {
   return (
