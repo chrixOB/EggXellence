@@ -1,11 +1,11 @@
 // src/componets/pages/AirtleTigo.jsx
 import React from 'react';
-// import '../Style/airteltigo.css';
+// import '../Style/feed.css';
 
-const AirtelTigo = () => {
+const Feed = () => {
   return (
     <div className="bg-[#f1f5f9] mx-auto text-left h-5/6 rounded-lg p-4 mt-3.5 max-w-120">
-      <div className="text-xl md:text-2xl font-bold text-center">AirtelTigo</div>
+      <div className="text-xl md:text-2xl font-bold text-center">feed</div>
       <div className="text-green-400 mt-5 mb-5 text-center text-xl md:text-2xl">₵3.90 – ₵210.00</div>
 
       <label className='text-[#1e293b] font-bold'>Packages</label><br></br>
@@ -18,7 +18,7 @@ const AirtelTigo = () => {
       </select>
       <br></br>
 
-      <label className='text-[#1e293b] font-bold'>AirtelTigo Quantity</label><br></br>
+      <label className='text-[#1e293b] font-bold'>feed Quantity</label><br></br>
       <input className="border-1 border-gray mt-1 w-full p-1.5" type="number" min="1" placeholder="Enter quantity" />
 
       <br></br>
@@ -26,10 +26,10 @@ const AirtelTigo = () => {
 
       <div className="meta-info">
         <p>SKU: iShare</p>
-        <p>Category: AirtelTigo</p>
+        <p>Category: feed</p>
       </div>
     </div>
   );
 };
 
-export default AirtelTigo;
+export default Feed;

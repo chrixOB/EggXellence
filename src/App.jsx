@@ -2,11 +2,11 @@ import { Routes, Route } from "react-router-dom";
 import Sidebar from "./components/layout/Sidebar";
 import Navbar from "./components/layout/Navbar";
 import Dashboard from "./components/pages/Dashboard";
-import AirtelTigo from "./components/pages/AirtleTigo";
-import Telecel from "./components/pages/Telecel";
+import Feed from "./components/pages/Feed";
+import Events from "./components/pages/Events";
 import Wallet from "./components/pages/Wallet";
-import Orders from "./components/pages/Oders";
-import MTN from "./components/pages/MTN";
+import FarmAccounts from "./components/pages/FarmAccounts";
+import Stats from "./components/pages/Stats";
 import AFA from "./components/pages/Afa";
 import Support from "./components/pages/Support";
 import "./index.css";
@@ -20,10 +20,10 @@ const App = () => {
         <main className="p-4 bg-light flex-1 overflow-auto">
           <Routes>
             <Route index element={<Dashboard />} />
-            <Route path="mtn-data" element={<MTN />} />
-            <Route path="airtel-tigo" element={<AirtelTigo />} />
-            <Route path="telecel" element={<Telecel />} />
-            <Route path="orders" element={<Orders />} />
+            <Route path="Stats" element={<Stats />} />
+            <Route path="Feed" element={<Feed />} />
+            <Route path="Events" element={<Events />} />
+            <Route path="FarmAccounts" element={<FarmAccounts />} />
             <Route path="wallet" element={<Wallet />} />
             {/* <Route path="/community" element={<Community />} /> */}
             <Route path="mtn-afa" element={<AFA />} />

@@ -14,10 +14,10 @@ import {
 
 const navItems = [
   { name: "Dashboard", path: "/", icon: <FaTachometerAlt /> },
-  { name: "Feed", path: "/airtel-tigo", icon: <FaLeaf /> },
-  { name: "Stats", path: "/mtn-data", icon: <FaChartLine /> },
-  { name: "Farm Accounts", path: "/telecel", icon: <FaMoneyBillAlt /> },
-  { name: "Logistics", path: "/mtn-afa", icon: <FaMoneyBillAlt /> },
+  { name: "Feed", path: "/Feed", icon: <FaLeaf /> },
+  { name: "Stats", path: "/Stats", icon: <FaChartLine /> },
+  { name: "Farm Accounts", path: "/FarmAccounts", icon: <FaMoneyBillAlt /> },
+  { name: "Events", path: "/Events", icon: <FaMoneyBillAlt /> },
   { name: "Top up Wallet", path: "/wallet", icon: <FaWallet /> },
   { name: "Join our community", path: "/community", icon: <FaUsers /> },
   { name: "Support", path: "/support", icon: <FaHeadset /> },
