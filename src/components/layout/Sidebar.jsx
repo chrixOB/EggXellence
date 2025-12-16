@@ -4,7 +4,7 @@ import {
   FaTachometerAlt,
   FaMoneyBillAlt,
   FaWallet,
-  FaSeedling, FaChartLine, FaLeaf,
+  FaSearchLocation, FaChartLine, FaLeaf,
   FaUsers,
   FaHeadset,
   FaSignOutAlt, FaBarcode,
@@ -19,7 +19,7 @@ const navItems = [
   { name: "Farm Accounts", path: "/FarmAccounts", icon: <FaMoneyBillAlt /> },
   { name: "Events", path: "/Events", icon: <FaBarcode /> },
   { name: "Debtors", path: "/Debtors", icon: <FaWallet /> },
-  
+  { name: "Maps", path: "/Debtors", icon: <FaSearchLocation /> }
 ];
 
 const Sidebar = () => {
