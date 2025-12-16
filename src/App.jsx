@@ -9,6 +9,7 @@ import FarmAccounts from "./components/pages/FarmAccounts";
 import Stats from "./components/pages/Stats";
 import AFA from "./components/pages/Afa";
 import Support from "./components/pages/Support";
+import Debtors from "./components/pages/Debtors";
 import "./index.css";
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
             <Route path="Events" element={<Events />} />
             <Route path="FarmAccounts" element={<FarmAccounts />} />
             <Route path="wallet" element={<Wallet />} />
-            {/* <Route path="/community" element={<Community />} /> */}
+            <Route path="Debtors" element={<Debtors />} />
             <Route path="mtn-afa" element={<AFA />} />
             <Route path="support" element={<Support />} />
           </Routes>

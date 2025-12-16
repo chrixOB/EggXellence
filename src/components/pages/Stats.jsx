@@ -37,10 +37,10 @@ const Stats = () => {
     <>
       <h1 className='mb-5 mt-5 text-center font-bold text-2xl'>Quick Overview of Farm Stats </h1>
     <div className='grid gap-5 lg:grid-cols-3'>
-    <div className="w-full h-16 text-2xl bg-amber-200 text-white text-center">Egg production</div>
-    <div className="w-full h-16 text-2xl bg-amber-200 text-white text-center">Feed consumption</div>
-    <div className="w-full h-16 text-2xl bg-amber-200 text-white text-center">Percentage increase</div>
-    <div className="w-full h-16 text-2xl bg-amber-200 text-white text-center">Feed price index</div>
+    <div className="w-full h-16 text-2xl bg-amber-200 text-black text-center">Egg production</div>
+    <div className="w-full h-16 text-2xl bg-amber-200 text-black text-center">Feed consumption</div>
+    <div className="w-full h-16 text-2xl bg-amber-200 text-black text-center">Production rate</div>
+    <div className="w-full h-16 text-2xl bg-amber-200 text-black text-center">Feed price index</div>
     </div>
     </>
     

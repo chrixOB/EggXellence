@@ -7,7 +7,7 @@ import {
   FaSeedling, FaChartLine, FaLeaf,
   FaUsers,
   FaHeadset,
-  FaSignOutAlt,
+  FaSignOutAlt, FaBarcode,
   FaBars,
   FaTimes,
 } from "react-icons/fa";
@@ -17,10 +17,9 @@ const navItems = [
   { name: "Feed", path: "/Feed", icon: <FaLeaf /> },
   { name: "Stats", path: "/Stats", icon: <FaChartLine /> },
   { name: "Farm Accounts", path: "/FarmAccounts", icon: <FaMoneyBillAlt /> },
-  { name: "Events", path: "/Events", icon: <FaMoneyBillAlt /> },
-  { name: "Top up Wallet", path: "/wallet", icon: <FaWallet /> },
-  { name: "Join our community", path: "/community", icon: <FaUsers /> },
-  { name: "Support", path: "/support", icon: <FaHeadset /> },
+  { name: "Events", path: "/Events", icon: <FaBarcode /> },
+  { name: "Debtors", path: "/Debtors", icon: <FaWallet /> },
+  
 ];
 
 const Sidebar = () => {
