@@ -7,9 +7,9 @@ import Events from "./components/pages/Events";
 import Wallet from "./components/pages/Wallet";
 import FarmAccounts from "./components/pages/FarmAccounts";
 import Stats from "./components/pages/Stats";
-import AFA from "./components/pages/Afa";
 import Support from "./components/pages/Support";
 import Debtors from "./components/pages/Debtors";
+import Maps from "./components/pages/Maps";
 import "./index.css";
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
             <Route path="FarmAccounts" element={<FarmAccounts />} />
             <Route path="wallet" element={<Wallet />} />
             <Route path="Debtors" element={<Debtors />} />
-            <Route path="mtn-afa" element={<AFA />} />
+            <Route path="Maps" element={<Maps />} />
             <Route path="support" element={<Support />} />
           </Routes>
         </main>

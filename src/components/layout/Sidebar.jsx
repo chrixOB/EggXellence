@@ -4,9 +4,8 @@ import {
   FaTachometerAlt,
   FaMoneyBillAlt,
   FaWallet,
-  FaSearchLocation, FaChartLine, FaLeaf,
-  FaUsers,
-  FaHeadset,
+  FaChartLine, FaLeaf,
+  FaMapMarkerAlt,
   FaSignOutAlt, FaBarcode,
   FaBars,
   FaTimes,
@@ -19,7 +18,7 @@ const navItems = [
   { name: "Farm Accounts", path: "/FarmAccounts", icon: <FaMoneyBillAlt /> },
   { name: "Events", path: "/Events", icon: <FaBarcode /> },
   { name: "Debtors", path: "/Debtors", icon: <FaWallet /> },
-  { name: "Maps", path: "/Debtors", icon: <FaSearchLocation /> }
+  { name: "Maps", path: "/Maps", icon: <FaMapMarkerAlt /> }
 ];
 
 const Sidebar = () => {
