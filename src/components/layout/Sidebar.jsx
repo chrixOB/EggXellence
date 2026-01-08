@@ -18,7 +18,7 @@ const navItems = [
   { name: "Farm Accounts", path: "/FarmAccounts", icon: <FaMoneyBillAlt /> },
   { name: "Events", path: "/Events", icon: <FaBarcode /> },
   { name: "Debtors", path: "/Debtors", icon: <FaWallet /> },
-  { name: "Maps", path: "/Maps", icon: <FaMapMarkerAlt /> }
+  { name: "Locations", path: "/Locations", icon: <FaMapMarkerAlt /> }
 ];
 
 const Sidebar = () => {

@@ -9,7 +9,7 @@ import FarmAccounts from "./components/pages/FarmAccounts";
 import Stats from "./components/pages/Stats";
 import Support from "./components/pages/Support";
 import Debtors from "./components/pages/Debtors";
-import Maps from "./components/pages/Maps";
+import Locations from "./components/pages/Locations";
 import "./index.css";
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
             <Route path="FarmAccounts" element={<FarmAccounts />} />
             <Route path="wallet" element={<Wallet />} />
             <Route path="Debtors" element={<Debtors />} />
-            <Route path="Maps" element={<Maps />} />
+            <Route path="locations" element={<Locations />} />
             <Route path="support" element={<Support />} />
           </Routes>
         </main>
